@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="Stylesheet" href="style-shop.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <meta charset="UTF-8">
+
+<title>Shop</title>
+</head>
+<body>
+<!-- Other Sections of website.  -->
+<div id = "banner">
+<a href="Homepage.html"><img class = "Logo" src="Images/STRATFORD-BLOOMS-LOGO.png" alt= "Stratford Blooms Logo" Height = "50" width ="190"></a>
+
+<ul>
+<li><a href="about.html"> OUR STORY</a></li>
+<li><a href="Shop.html">SHOP</a></li>
+<li><a href="Contact.html">CONTACT US</a></li>
+</ul>
+
+
+<!-- Java and HTML for login button  -->
+<button class ="Log" onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    
+<!-- Java and HTML for Sign Up button  -->
+<button class ="Sign" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Sign Up</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    
+<img class = "Basket" src="Images/Basket.png" alt= "basket" Height = "30" width ="35">
+</div>
+    
+<!-- Our Flowers Section -->
+<h2> Our Flowers </h2>
+    
+    <div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">Flowers 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#">Roses</a>
+    <a href="#">Tulips</a>
+    <a href="#">Daisies</a>
+    </div>
+  </div>
+
+    <div class="dropdown">
+    <button class="dropbtn">Colour 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#"><svg height="20" width="20">
+    <circle cx="10" cy="10" r="10" fill="red" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="yellow" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="blue" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="green" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="purple" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="pink" /> 
+    </svg> </a>
+    <a href="#"><svg height="30" width="30">
+    <circle cx="10" cy="10" r="10" fill="orange" /> 
+    </svg> </a>
+    </div>
+  </div>
+
+    <div class="dropdown">
+    <button class="dropbtn">Price 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#">$0 - $20</a>
+    <a href="#">$20 - $50</a>
+    <a href="#">$50 - $70</a>
+    <a href="#">$70 - $100</a>
+    <a href="#">$100 - $130</a>
+    <a href="#">$130 - $150</a>
+    <a href="#">$150+</a>  
+    </div>
+  </div>
+
+    <div class="dropdown">
+    <button class="dropbtn">Sort By 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#">Low-High</a>
+    <a href="#">High-Low</a>
+    <a href="#">Recently Added</a>
+    <a href="#">Most Popular</a>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Products -->
+
+<div id= "firstprod"> </div>
+<div id= "secondprod"> </div>
+<div id= "thirdprod"> </div>
+<div id= "fourthprod"> </div>
+
+<div id= "firstdesc">
+<p>The Apple of My Eye <br> C$60</p></div>
+<div id= "seconddesc">
+<p>Pocket Full of Posies <br> C$50</p></div>
+<div id= "thirddesc"> 
+<p><a href = "product.html">Be Still My Heart Arrangement</a> <br> C$45</p>
+</div>
+<div id= "fourthdesc">
+<p>My Funny Valentine <br> C$50</p>
+ </div>
+
+
+</body>
+    
+<!-- Footer with details -->    
+<footer>
+<p><a href="Shipping%20and%20Policies.html">Shipping and Policies</a></p> 
+<p>519 814 5000</p>
+<p><a href="mailto:info@stratfordblooms.com">info@stratfordblooms.com></a></p>
+<p>59 Albert Street, Stratford, ON N5A 3K2</p>
+</footer>
+</html>

@@ -1,0 +1,413 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+a:link {
+  text-decoration: none;
+  color:#5d6f69;
+}
+
+li{
+  display:inline;
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-align: center;
+  margin-right: 80px;
+  color: #5d6f69;
+  font-size: 12px;
+}
+
+ul{
+  margin-top: -30px;
+  text-align: center;
+  /*margin-left:-100px;*/
+}
+
+.Logo{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#banner{
+  background-color: #F2F0F1;
+  color: #5d6f69;
+  width:100%;
+  height: 93px;
+}
+
+#banner a:link{
+  color:#5d6f69;
+  text-decoration: none;
+}
+
+#banner a:hover{
+  color:#b29dc4;
+}
+
+#banner a:visited{
+  color: hsl(0, 100%, 90%);
+}
+
+.Basket{
+  display:inline;
+  float: right;
+  margin-top: -176px;
+  margin-right: 30px;
+  margin-left: 100px;
+}
+
+.arrow {
+  margin-left: 60px;
+}
+
+h1{
+  font-weight: lighter;
+}
+
+.contacts {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  margin-right: -20px;
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: lighter;
+}
+
+b{
+  color: #5d6f69;
+}
+
+#content{
+  float: center;
+}
+
+#googleMap {
+  clear: none;
+  display: inline-block;
+  margin-left: 170px;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer{
+    display:inline-block;
+    background-color: #F2F0F1;
+    width:100%;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 5px;
+    height: 100px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #5d6f69;
+}
+
+footer a:link{
+  color:#5d6f69;
+text-decoration: none;
+}
+
+footer a:hover{
+  color:#b29dc4;
+}
+
+footer a:visited{
+  color: hsl(0, 100%, 65%);
+}
+
+
+/*<!-- CSS for login button  -->
+*/
+body {
+	font-family: "Gill Sans", Helvetica, sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.smallsign {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  border-radius: 45px;
+  border-color: #5d6f69;
+  margin-top: -156px;
+}
+
+.Sign{
+border-radius: 45px;
+border-color: #5d6f69;
+margin-top: -156px;
+font-size: 10px;
+cursor: pointer;
+padding: 4px 0px;
+margin: 8px 200px;
+background-color: #F2F0F1;
+display:inline;
+clear: none;
+float:right;
+padding: 1px;
+font-family: "Open Sans";
+color: #F2F0F1;
+margin-right: 207px;
+margin-top: -60px;
+width: 101px;
+height: 35px;
+top: 25px;
+color: black;
+border-radius: 45px;
+}
+
+.Log{
+border-radius: 45px;
+border-color: #5d6f69;
+margin-top: -156px;
+font-size: 10px;
+cursor: pointer;
+padding: 4px 0px;
+margin: 8px 200px;
+color: #F2F0F1;
+display:inline;
+clear: none;
+float:right;
+padding: 1px;
+font-family: "Open Sans";
+width: 101px;
+height: 35px;
+margin-left: -10px;
+margin-right: 90px;
+margin-top: -60px;
+border-radius: 45px;
+}
+
+.modal{
+  border-radius: 45px;
+}
+
+.Basket{
+  float: right;
+  margin-top: -62px;
+  margin-right: 30px;
+  margin-left: 100px;
+}
+
+h3{
+  color: #b29dc4;
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  border: none;
+  padding: 10px 18px;
+  background-color: #b29dc4;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 500px; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Modal (background) */
+.modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */  
+  padding-top: 60px;
+  float: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  /*background-color: #fefefe;*/
+  background-color: white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  font-size: 12px;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+* {box-sizing: border-box}
+body {font-family: "Open Sans", sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+body { 
+font-family:"Open Sans,sans-serif"}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  font-family: "Open Sans, sans-serif";
+  background-color:#5D6F69;
+  color:White;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius:10px;
+  border-color, opacity: white, 50%;
+  width: 100%
+  opacity:100%;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */  
+  padding-top: 60px;
+  float: center;
+  border-radius: 0px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  font-size: 12px;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+/* Clear floats */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+.signupbtn {
+     width: 100%;
+  }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="style-aboutus.css">
+
+    <!--CharSet!-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8">
+        
+    <!--Fonts!-->    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        
+    </head>
+<body>
+<!-- Other Sections of website.  -->
+<div id = "banner">
+<a href="Homepage.html"><img class = "Logo" src="Images/STRATFORD-BLOOMS-LOGO.png" alt= "Stratford Blooms Logo" Height = "50" width ="190"></a>
+
+<!--<div id="nav">-->
+
+<ul>
+<li><a href="About.html">OUR STORY</a></li>
+<li><a href="Shop.html">SHOP</a></li>
+<li><a href="Contact.html">CONTACT US</a></li>
+</ul>
+</div>
+    
+<img class = "Basket" src="images/Basket.png" alt= "basket" Height = "30" width ="35">  
+
+    
+<h2>Our Story</h2>
+<div class="rectangle"></div>
+
+<!-- Java and HTML for login button  -->
+<button class ="Log" onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    
+<!-- Java and HTML for Sign Up button  -->
+<button class ="Sign" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+
+<!--     <div class="container" style="background-color:#f1f1f1">
+ -->      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div> 
+    
+ <div id = "content">
+<div id="text1">
+<p>
+One could say I, Amanda Speelman, was born into the floral industry.<br> My parents had their own flower shop when I was young and subsequently a wholesale floral business. <br> At the age of 5, I began making boxes, filling buckets and unpacking stock. <br>This is when my love of flowers began.
+</p>
+</div>
+ 
+<div id="text2">
+<p>Each box of flowers was like a treasure chest waiting to be opened and discovered (and still is). I have been working professionally in the floral industry for over 15 years and am grateful for the exciting challenge of running my own business! It's been a great first few years so far — thank you to all my customers — and I look forward to continuing to serve you and the community. <br> I have a passion for flowers, nature, the environment and excellent customer service.  
+</p>
+</div>
+</div>
+<div id="family">
+<img id ="headshot" src="images/Amanda.webp" alt="Owner Headshot" style="width:10; height:50;">
+<img id ="fam" src="images/StratfordGrp.webp" alt="Family Photo" style="width:30;height:30;">
+</div>
+
+<footer>
+<p><a href="Shipping%20and%20Policies.html">Shipping and Policies</a></p> 
+<p>519 814 5000</p>
+<p><a href="mailto:info@stratfordblooms.com">info@stratfordblooms.com</a></p>
+<p>59 Albert Street, Stratford, ON N5A 3K2</p>
+</footer>
+
+</body>
+</html>
+    
+    

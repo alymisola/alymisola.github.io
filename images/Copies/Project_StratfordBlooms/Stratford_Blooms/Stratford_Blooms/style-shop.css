@@ -1,0 +1,452 @@
+li{
+  display:inline;
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-align: center;
+  margin-right: 80px;
+  color: #5d6f69;
+  font-size: 12px;
+}
+
+
+ul{
+  margin-top: -30px;
+  text-align: center;
+  /*margin-left:-100px;*/
+}
+
+a:link{
+	text-decoration: none;
+  	color: #5d6f69;
+}
+
+a:hover{
+  color:#b29dc4;
+}
+
+a:visited{
+  color: hsl(0, 100%, 90%);
+}
+
+p{
+  padding: none;
+}
+
+.Logo{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#banner{
+  background-color: #F2F0F1;
+  color: #5d6f69;
+  width:100%;
+  height: 93px;
+}
+
+#banner a:link{
+  color:#5d6f69;
+  text-decoration: none;
+}
+
+#banner a:hover{
+  color:#b29dc4;
+}
+
+#banner a:visited{
+  color: hsl(0, 100%, 90%);
+}
+
+h2{
+  color:#5d6f69;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer {
+    display: inline-block;
+    background-color: #F2F0F1;
+    width:100%;
+    text-align: center;
+    height: 100px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #5d6f69;
+    margin-top: -20px
+}
+
+footer p{
+  display:inline-block;
+  width: 100%;
+  font-family: "Open Sans";
+  font-style: italic;
+  text-align: center; 
+  margin-top: -1000px;
+  font-size: 11px;
+  font-weight: lighter;
+  float: center;
+  line-height: 10px;
+  padding-top: 10px;
+
+}
+
+footer a:link{
+  color:#5d6f69;
+text-decoration: none;
+}
+
+footer a:hover{
+  color:#b29dc4;
+}
+
+footer a:visited{
+  color: hsl(0, 100%, 65%);
+}
+
+/*<!-- CSS for login button  -->
+*/
+body {
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  display:inline;
+  background-color: #F2F0F1;
+  color: black;
+  padding: 4px 0px;
+  margin: 8px 200px;
+  cursor: pointer;
+/*  width: 100%;
+*/  border-radius: 45px;
+  border-color: #5d6f69;
+  float:right;
+  margin-top: -45px;
+  font-size: 10px;
+}
+
+.Sign{
+font-family: "Open Sans";
+background-color:#5d6f69 ;
+color: #F2F0F1;
+margin-right: 80px;
+width: 101px;
+height: 35px;
+top: 25px;
+}
+
+.Log{
+font-family: "Open Sans";
+background-color: #F2F0F1;
+width: 101px;
+height: 35px;
+margin-left: -10px;
+
+}
+
+
+.Basket{
+  float: right;
+  margin-top: -45px;
+  margin-right: 30px;
+  margin-left: 100px;
+}
+
+h3{
+  color: #b29dc4;
+}
+
+#firstprod{
+margin-top: 20px;	
+margin-left: 120px;
+display: inline-block;
+background: green;
+width: 255px;
+height: 330px;
+background: url("Images/Added1.png");
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+#secondprod{
+margin-top: 20px;	
+display: inline-block;
+background: blue;
+width: 255px;
+height: 330px;
+background: url("Images/Added2.png");
+background-size: 90%;
+background-repeat: no-repeat;
+
+}
+
+#thirdprod{
+margin-top: 20px;	
+display: inline-block;
+background: yellow;
+width: 255px;
+height: 330px;
+background: url("Images/product.png");
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+#fourthprod{
+margin-top: 20px;	
+display: inline-block;
+background: red;
+width: 255px;
+height: 330px;
+background: url("Images/Added3.png");
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+
+#firstdesc{
+margin-top: 20px;	
+color: #5d6f69 ;	
+margin-left: 120px;
+display: inline-block;
+width: 255px;
+height: 200px;
+padding-left: 20px;
+}
+
+#seconddesc{
+margin-top: 20px;	
+color: #5d6f69 ;
+display: inline-block;
+width: 255px;
+height: 200px;
+padding-left: 20px;
+}
+
+#thirddesc{
+margin-top: 20px;	
+color: #5d6f69 ;
+display: inline-block;
+width: 255px;
+height: 200px;
+padding-left: 20px;
+}
+
+#fourthdesc{
+margin-top: 20px;	
+color: #5d6f69 ;	
+display: inline-block;
+width: 255px;
+height: 200px;
+padding-left: 20px;
+}
+
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 70px;
+  border: none;
+  padding: 10px 18px;
+  background-color: #b29dc4;
+  color: white;
+/*  margin-left: 20px;
+*/}
+
+.container {
+  padding: 16px;
+}
+
+.container button{
+float: right;
+}
+
+span.psw {
+  float: right;
+  margin-top: -40px;
+/*  padding-top: 10px;
+*/}
+
+/* The Modal (background) */
+.modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */  
+  padding-top: 60px;
+  float: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  /*background-color: #fefefe;*/
+  background-color: white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  font-size: 12px;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 26px;
+ /* font-weight: bold;*/
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100%) {
+  span.psw {
+     display: block;
+     float: none;
+
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*<!-- Code for Slideshow from w3schools. --> 
+*/
+
+* {box-sizing: border-box}
+body {font-family: "Open Sans", sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/*<!-- Code for Dropdown from w3schools. --> 
+*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #5d6f69;
+  width: 320px;
+  float: center;
+  margin-left: 480px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  margin-top: 50px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: #b29dc4;}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shipping and Policies</title>
+    <link rel="Stylesheet" href="style-ship.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="UTF-8">
+    </head>
+<body>
+<!-- Other Sections of website.  -->
+<div id = "banner">
+<a href="Homepage.html"><img class = "Logo" src="Images/STRATFORD-BLOOMS-LOGO.png" alt= "Stratford Blooms Logo" Height = "50" width ="190"></a>
+<!-- </div>
+ --><!-- <div id="nav">
+ --><ul>
+<li><a href="About.html">OUR STORY</a></li>
+<li><a href="Shop.html">SHOP</a></li>
+<li><a href="Contact.html">CONTACT US</a></li>
+</ul>
+
+
+<!-- Java and HTML for login button  -->
+<button class ="Log" onclick="document.getElementById('id01').style.display='block'">LOGIN</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    
+<!-- Java and HTML for Sign Up button  -->
+<button class ="Sign" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+    
+<!--<img class = "Login" src="Images/Login.png" alt= "Login button" Height = "30" width ="60"> -->
+<!--<img class = "SignUp" src="Images/SignUp.png" alt= "Sign Up button" Height = "30" width ="60">-->
+<img class = "Basket" src="Images/Basket.png" alt= "basket" Height = "30" width ="35">
+</div>
+
+
+<div id= "back">
+<div id="Ship">
+<h1>Shipping and Policies</h1>
+
+<h3>Shipping</h3>
+<p>A <i>local delivery fee </i> of <b>$10.00</b> is added to each order, for each address. For deliveries outside our local delivery area, <i>this fee may vary</i>. On the Cart page, prior to checkout, be sure to select the correct area of shipping from the dropdown list to apply the applicable fee.
+
+<br><br>All orders must be received <strong>before 2:00 p.m.</strong> in the recipient's time zone to assure same-day delivery. Orders received after that time may be delivered the following day.
+
+<br><br>We do our best to accommodate deliveries at specific times of day, but we cannot guarantee it.
+
+<br><br>We are unable to make deliveries on Sundays. Deliveries requested on this day are delivered the following business day.
+
+<br><br>For international orders please call our shop directly. We are unable to accept international orders over the Internet.</p>
+</div>
+
+<div id="Sub">
+
+<h3>Substitution Policy</h3>
+<p>Our photos represent an overall theme which cannot be exactly replicated. Substitutions of flowers or containers happen due to weather, seasonality, and market conditions which may affect availability. If this is the case with the gift you've selected, our team of talented designers ensures that the style, theme and colour scheme of your arrangement is preserved and will only substitute items of equal or higher value. Please contact us if you have specific requests.</p>
+</div>
+
+<div id="Agree">
+
+<h3>Agreement of Use</h3>
+<p> By placing an order through StratfordBlooms.com(ca) you agree to the shipping terms, substitution policy, and to supply certain information relevant to your purchase including, without limitation, your name, address, phone number and credit card information.</p>
+</div>
+
+<div id="Privacy">
+
+
+<h3>Privacy Policy</h3>
+<p>This policy statement has be created to demonstrate our commitment to protecting our customers privacy. Your confidence in our policies and practices to protect and safeguard your privacy is very important to Stratford Blooms. We regard our customers privacy to be our priority.</p>
+
+
+<p>We use your private information strictly to process your order with us and to collect product sales analytics. We do not sell your information or use any third party for advertising or marketing.
+
+    All customer information is strictly confidential.</p>
+
+</div>
+</div>
+    
+<footer>
+<p><a href="Shipping%20and%20Policies.html"><i>Shipping and Policies</a></a></p>
+<p><i>519 814 5000</i></p>
+<p><a href="mailto:info@stratfordblooms.com"><i>info@stratfordblooms.com</i></a></p>
+<p><i>59 Albert Street, Stratford, ON N5A 3K2</i></p>
+</footer>
+</html>
