@@ -320,12 +320,17 @@ h2{
   line-height: .5;
 }
 
+hr#footer {
+  border: 0.5px solid rgba(0,0,0,0.2);
+  width: 52.5%;
+}
+
 footer {
     display: block;
     margin-top: 5em;
     height: 112px;
     width: 100%;
-    background-color: #F3F1F6;
+    /* background-color: #F3F1F6; */
     color: gray;
     font-family: 'Nunito', sans-serif;
     font-size: 13px;
